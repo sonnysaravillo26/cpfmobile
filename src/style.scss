@@ -188,16 +188,22 @@ input[type=number] {
   background-color: #e18b19;
   color: white;
   font-size: 60px; 
-  font-weight: 500;
+  font-weight: 700;
   border-top-left-radius: 40%;
-  border-bottom-right-radius: 40%; 
+  border-bottom-right-radius: 40%;  
+  padding-top:5px;
+  padding-bottom: 5px;
 }
  
 .color_gr { 
   background-color: #189889 !important;
 } 
 
-.queue_desc_two { 
+.queue_desc {
+  padding-top:15px;  
+}
+
+.queue_desc_two {  
   font-weight: 800;
 }
  
@@ -229,4 +235,8 @@ input[type=number] {
 .status_desc p {
   font-size: 25px;
   font-weight: 500; 
+}
+
+hr {
+  color:#9bbab8;
 }

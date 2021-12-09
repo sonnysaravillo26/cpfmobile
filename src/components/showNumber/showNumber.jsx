@@ -7,9 +7,8 @@ const Heading = React.lazy(() => import("./../common/heading"));
 
 function ShowNumber() { 
     const navigate = useNavigate();
-    useEffect(() => {
-
-
+     
+    useEffect(() => {  
     }, []);
 
     return (
@@ -18,7 +17,7 @@ function ShowNumber() {
                 <h2 className="header_titleTwo">Your Queue No.</h2>
                 <br />
 
-                <div className="queue_box">
+                <div className="queue_box animate__animated animate__flash animate__delay-1s">
                     <p>A1000</p>
                 </div>
                 <div className="queue_desc">

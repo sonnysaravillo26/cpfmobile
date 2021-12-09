@@ -20,7 +20,7 @@ function ShowNumberCalled() {
 
                 <br />
 
-                <div className="queue_box color_gr">
+                <div className="queue_box color_gr animate__animated animate__flash animate__delay-1s">
                     <p>A1000</p>
                 </div>
 
