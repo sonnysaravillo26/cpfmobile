@@ -1,16 +1,16 @@
 html,
 body {
-  max-width : 100%;
+  max-width: 100%;
   overflow-x: hidden;
 }
 
-$white      : #ffffff;
-$light-gray : #f2f2f2;
+$white: #ffffff;
+$light-gray: #f2f2f2;
 $light-green: #e2f0d9;
-$lime-green :#a5cf4c;
-$dark-green : #0a6160;
-$orange     : #e18b19;
-$dark-red   : #a00000;
+$lime-green: #a5cf4c;
+$dark-green: #0a6160;
+$orange: #e18b19;
+$dark-red: #a00000;
 
 .bg-green {
   background: $dark-green;
@@ -22,7 +22,7 @@ $dark-red   : #a00000;
 
 h3 {
   font-weight: bold;
-  color      : $dark-green;
+  color: $dark-green;
 }
 
 .center {
@@ -30,14 +30,14 @@ h3 {
 }
 
 .main_header {
-  text-align   : center;
-  background   : $dark-green;
+  text-align: center;
+  background: $dark-green;
   border-bottom: 8px solid $lime-green;
 }
 
 .top_header_border {
   background: $white;
-  height    : 30px;
+  height: 30px;
 }
 
 .top_header_dark {
@@ -45,10 +45,10 @@ h3 {
 }
 
 .top_header_container {
-  display        : flex;
-  align-items    : center;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  padding        : 3px 0px;
+  padding: 3px 0px;
 }
 
 img {
@@ -56,34 +56,34 @@ img {
 }
 
 .text {
-  font-size   : 12px;
-  font-weight : bold;
+  font-size: 12px;
+  font-weight: bold;
   padding-left: 0px;
 }
 
 .body_content {
   text-align: center;
   min-height: 400px;
-  padding   : 10vh
+  padding: 10vh;
 }
 
 .main_footer {
   background: $dark-green;
   border-top: 8px solid $lime-green;
 
-  min-height : 120px;
+  min-height: 120px;
   padding-top: 4%;
 }
 
 .wrapper {
-  margin : 30px 0px;
+  margin: 30px 0px;
   padding: 0px;
 }
 
 .bg-wrapper {
   border-radius: 0.5rem !important;
-  padding      : 20px 10px !important;
-  background   : $light-gray;
+  padding: 20px 10px !important;
+  background: $light-gray;
 }
 
 .btn-wrapper {
@@ -94,19 +94,18 @@ img {
   margin: 0px 0px;
 }
 
-
 .btn-cstm {
-  border-radius   : 1.6rem !important;
-  padding         : 10px 30px !important;
-  margin          : 10px !important;
+  border-radius: 1.6rem !important;
+  padding: 10px 30px !important;
+  margin: 10px !important;
   background-color: $dark-green !important;
 }
 
 .text-cstm {
   border-radius: 0.5rem;
-  padding      : 10px 30px !important;
-  font-weight  : bold;
-  color        : $white;
+  padding: 10px 30px !important;
+  font-weight: bold;
+  color: $white;
 }
 
 .imgLogo {
@@ -114,12 +113,12 @@ img {
 }
 
 .siteName h5 {
-  color         : white;
+  color: white;
   padding-bottom: 8px;
 }
 
 .main_footer span {
-  color: white
+  color: white;
 }
 
 .main_footer .lang_sec {
@@ -127,7 +126,7 @@ img {
 }
 
 .lang_sec button {
-  color    : white !important;
+  color: white !important;
   font-size: 12px;
 }
 
@@ -139,18 +138,17 @@ img {
   color: white !important;
 }
 
-
 .footer_desc {
-  text-align    : center;
+  text-align: center;
   padding-bottom: 2%;
 }
 
 // REMOVE LATER
 .shorcuts {
-  position  : absolute;
-  left      : -10px;
-  top       : 0;
-  font-size : 10px;
+  position: absolute;
+  left: -10px;
+  top: 0;
+  font-size: 10px;
   text-align: left;
 }
 
@@ -162,21 +160,21 @@ nav ul li {
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
-  margin            : 0;
+  margin: 0;
 }
 
 /* Firefox */
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 
 .btnIconR {
-  margin-left : 10px !important;
+  margin-left: 10px !important;
   margin-right: -10px !important;
 }
 
 .btnIconL {
-  margin-left : -10px !important;
+  margin-left: -10px !important;
   margin-right: 10px !important;
 }
 
@@ -184,19 +182,19 @@ input[type=number] {
   background: $dark-green;
   border-top: 8px solid $lime-green;
 
-  min-height : 120px;
+  min-height: 120px;
   padding-top: 4%;
 }
 
 .queue_box {
-  background-color          : #e18b19;
-  color                     : white;
-  font-size                 : 60px;
-  font-weight               : 700;
-  border-top-left-radius    : 40%;
+  background-color: #e18b19;
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  border-top-left-radius: 40%;
   border-bottom-right-radius: 40%;
-  padding-top               : 5px;
-  padding-bottom            : 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .color_gr {
@@ -212,23 +210,23 @@ input[type=number] {
 }
 
 .queue_acc {
-  padding         : 10px 0px;
+  padding: 10px 0px;
   background-color: $light-green;
 }
 
 .header_title {
   font-weight: 900;
-  color      : $dark-green;
+  color: $dark-green;
 }
 
 .header_titleTwo {
   font-weight: 900;
-  color      : $dark-green;
+  color: $dark-green;
 }
 
 .qr_status {
-  font-weight   : 900;
-  padding-top   : 15px;
+  font-weight: 900;
+  padding-top: 15px;
   padding-bottom: 15px;
 }
 
@@ -237,10 +235,15 @@ input[type=number] {
 }
 
 .status_desc p {
-  font-size  : 25px;
+  font-size: 25px;
   font-weight: 500;
 }
 
 hr {
   color: #9bbab8;
+}
+
+.alert_message {
+  padding: 10px;
+  color: $dark-red;
 }
